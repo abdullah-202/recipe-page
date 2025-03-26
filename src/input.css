@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Outfit;
+    src: url(".././assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(".././assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+    background-color: #f3e5d8;
+}
+
+h1,
+h2 {
+    font-family: Young-Serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.prep {}
+
+.prep li {
+    list-style: outside;
+    padding-left: 1rem;
+    padding-bottom: 8px;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredient {
+    padding: 20px;
+}
+
+.ingredient li {
+    list-style: outside;
+    padding-left: 1rem;
+    padding-bottom: 8px;
+
+}
+
+.instruction li {
+
+    padding-left: 1rem;
+    padding-bottom: 8px;
+}
+
+.nutrition span {
+    @apply flex items-center
+}
+
+.nutrition span b {
+    @apply text-[#854632]
+}
